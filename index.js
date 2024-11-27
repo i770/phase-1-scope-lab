@@ -18,12 +18,12 @@ function overwriteBestCustomer() {
 }
 
 // Step 5: Declare constant and attempt to change it
-const leastFavoriteCustomer = 'initial value';
+const leastFavoriteCustomer = 'initial customer';
 
 function changeLeastFavoriteCustomer() {
-  try {
-    leastFavoriteCustomer = 'new value';
-  } catch (error) {
-    console.error('Error: Cannot assign to constant variable.');
+  
+    leastFavoriteCustomer = 'new customer';
+  
+  
   }
-}
+
